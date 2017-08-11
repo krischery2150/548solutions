@@ -1,4 +1,13 @@
 
+@font-face {
+    font-family:'nucleo-outline';
+    src:url(asset-path('fonts/nucleo-outline.eot'));
+    src:url(asset-path('fonts/nucleo-outline.eot?#iefix')) format('embedded-opentype'),
+         url('nucleo-outline.woff') format('woff'),
+         url('nucleo-outline.ttf') format('truetype'),
+         url('nucleo-outline.svg#nucleo-outline') format('svg');
+}
+
 @import 'demo';
 // @import 'now-ui-kit';
 @import 'now-ui-kit/variables';
@@ -40,3 +49,5 @@
 
 
 @import "now-ui-kit/responsive";
+
+@import "static_pages";
