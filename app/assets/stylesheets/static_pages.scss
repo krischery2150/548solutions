@@ -5,3 +5,27 @@
 .title + .category {
    margin-top: 0px !important;
 }
+
+.img-fluid{
+  max-width: 40% !important;
+}
+
+div.team-player{
+  padding: 5% 0%;
+}
+
+.card {
+  border: 0;
+  border-radius: 0.1875rem;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  margin-bottom: 20px;
+  border: none !important;
+  box-shadow: 0px 5px 25px 0px rgba(44, 44, 44, 0.29);
+}
+
+.section-bg-secondary{
+  background: #f96332 !important;
+}
