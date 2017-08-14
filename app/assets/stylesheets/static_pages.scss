@@ -2,6 +2,22 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+// Start of Header
+ul.header-service-list{
+  display: inline-flex;
+  font-size: 0.9em;
+  padding: 0;
+}
+
+
+
+ul.header-service-list > li:first-child{
+  margin-left: -57px;
+  list-style: none;
+}
+ul.header-service-list > li{
+  margin: 0% 7%;
+}
 .title + .category {
    margin-top: 0px !important;
 }
@@ -38,6 +54,10 @@ div.team-player{
 ul.nav-pills-primary > li > span{
   margin-left: -24px;
   font-size: 0.8em;
+}
+
+p.card-text{
+  color: #a1a1a1;
 }
 
 @media (min-width: 576px)  {
