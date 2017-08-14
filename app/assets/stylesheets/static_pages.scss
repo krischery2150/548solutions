@@ -32,7 +32,12 @@ div.team-player{
 }
 
 .modal-dialog{
-  margin: 19% 10px !important;
+  margin: 15% 10px !important;
+}
+
+ul.nav-pills-primary > li > span{
+  margin-left: -24px;
+  font-size: 0.8em;
 }
 
 @media (min-width: 576px)  {
