@@ -8,7 +8,9 @@
          url('nucleo-outline.svg#nucleo-outline') format('svg');
 }
 
-@import 'demo';
+
+
+
 // @import 'now-ui-kit';
 @import 'now-ui-kit/variables';
 @import 'now-ui-kit/mixins';
@@ -54,3 +56,6 @@
 @import "static_pages";
 
 @import "now-ui-kit";
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
