@@ -12,6 +12,21 @@
 //
 //= require jquery2
 //= require jquery_ujs
+//= require jquery.turbolinks
 //= require now-ui-kit
 //= require tether.min
 //= require rails-ujs
+//= require turbolinks
+//= require test
+
+$( document ).ready( function() {
+
+    window.sr = ScrollReveal();
+    
+    sr.reveal('.hideme',{
+      duration: 2000,
+      origin: 'bottom',  
+    });
+ 
+ 
+});
