@@ -27,6 +27,17 @@ $( document ).ready( function() {
       duration: 2000,
       origin: 'bottom',  
     });
+    
+    sr.reveal('.team-player',{
+      duration: 1500,
+      origin: 'top',  
+    });
+
+    sr.reveal('.btn-icon',{
+      duration: 500,
+      delay: 500,
+      origin: 'top',  
+    });
  
  
 });

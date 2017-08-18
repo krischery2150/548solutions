@@ -61,7 +61,6 @@ div.team-player{
 
 .section-bg-secondary{
   background: #f96332 !important;
-  box-shadow: 0 -5px 20px 0 rgba(0, 0, 0, 0.26);
 }
 
 .modal-dialog{
@@ -78,6 +77,11 @@ p.card-text{
 }
 
 
+img.logo{
+  
+  width: 100%;
+  margin-left: 33%;
+}
 
 @media (min-width: 576px)  {
   .modal-dialog{
