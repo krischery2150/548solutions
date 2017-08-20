@@ -63,9 +63,9 @@ div.team-player{
   background: #f96332 !important;
 }
 
-.modal-dialog{
-  margin: 15% 10px !important;
-}
+// .modal-dialog{
+//   margin: 15% 10px !important;
+// }
 
 ul.nav-pills-primary > li > span{
   margin-left: -24px;
@@ -82,6 +82,18 @@ img.logo{
   width: 100%;
   margin-left: 33%;
 }
+
+div.optimize-ad > h2{
+  font-size: 4em;
+  margin-left: 5%;
+}
+
+div.optimize-ad > h5{
+  font-size: 6em;
+  color: white;
+  font-weight: 200;
+}
+
 
 @media (min-width: 576px)  {
   .modal-dialog{

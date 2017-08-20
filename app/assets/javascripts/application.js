@@ -10,14 +10,15 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
-//= require jquery2
-//= require jquery_ujs
-//= require jquery.turbolinks
+//= require jquery3
+//= require popper
+//= require bootstrap
 //= require now-ui-kit
 //= require tether.min
 //= require rails-ujs
 //= require turbolinks
 //= require test
+//= require static_pages
 
 $( document ).ready( function() {
 
@@ -40,4 +41,9 @@ $( document ).ready( function() {
     });
  
  
+ $(".rotate").textrotator({
+  animation: "flipCubeUp", // You can pick the way it animates when rotating through words. Options are dissolve (default), fade, flip, flipUp, flipCube, flipCubeUp and spin.
+  separator: ",", // If you don't want commas to be the separator, you can define a new separator (|, &, * etc.) by yourself using this field.
+  speed: 1000 // How many milliseconds until the next word show.
+  });
 });
