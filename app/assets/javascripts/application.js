@@ -39,8 +39,19 @@ $( document ).ready( function() {
       delay: 500,
       origin: 'top',  
     });
- 
- 
+    
+    sr.reveal('.desktop-img',{
+      duration: 2000,
+      origin: 'top'  
+    });
+    
+    sr.reveal('.optimize-ad',{
+      delay: 1000,
+      duration: 2000,
+      origin: 'right',  
+      distance: '200px',
+    });
+    
  $(".rotate").textrotator({
   animation: "flipCubeUp", // You can pick the way it animates when rotating through words. Options are dissolve (default), fade, flip, flipUp, flipCube, flipCubeUp and spin.
   separator: ",", // If you don't want commas to be the separator, you can define a new separator (|, &, * etc.) by yourself using this field.
