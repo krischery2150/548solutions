@@ -49,9 +49,23 @@ $( document ).ready( function() {
       delay: 1000,
       duration: 2000,
       origin: 'right',  
-      distance: '200px',
+      // distance: '200px',
     });
     
+    
+// This code helped me nail the extra space away from the body    
+var docWidth = document.documentElement.offsetWidth;
+
+[].forEach.call(
+  document.querySelectorAll('*'),
+  function(el) {
+    if (el.offsetWidth > docWidth) {
+      console.log(el);
+    }
+  }
+);
+// This code helped me nail the extra space away from the body    
+
  $(".rotate").textrotator({
   animation: "flipCubeUp", // You can pick the way it animates when rotating through words. Options are dissolve (default), fade, flip, flipUp, flipCube, flipCubeUp and spin.
   separator: ",", // If you don't want commas to be the separator, you can define a new separator (|, &, * etc.) by yourself using this field.
