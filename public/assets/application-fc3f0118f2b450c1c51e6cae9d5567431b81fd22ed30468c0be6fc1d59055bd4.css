@@ -10237,20 +10237,33 @@ img.logo {
 }
 
 /* line 86, /home/ubuntu/workspace/maggieapp21/app/assets/stylesheets/static_pages.scss */
-div.optimize-ad > h2 {
-  font-size: 4em;
-  margin-left: 5%;
+div.optimize-ad {
+  padding-top: 6%;
 }
 
-/* line 91, /home/ubuntu/workspace/maggieapp21/app/assets/stylesheets/static_pages.scss */
+/* line 89, /home/ubuntu/workspace/maggieapp21/app/assets/stylesheets/static_pages.scss */
+div.optimize-ad > h2 {
+  font-size: 3em;
+  margin-left: -1%;
+}
+
+/* line 94, /home/ubuntu/workspace/maggieapp21/app/assets/stylesheets/static_pages.scss */
 div.optimize-ad > h5 {
-  font-size: 6em;
+  font-size: 3.5em;
   color: white;
   font-weight: 200;
+  margin-left: -2%;
+}
+
+/* line 103, /home/ubuntu/workspace/maggieapp21/app/assets/stylesheets/static_pages.scss */
+.carousel-img {
+  height: 400px;
+  width: 100%;
+  border-radius: 7px;
 }
 
 @media (min-width: 576px) {
-  /* line 99, /home/ubuntu/workspace/maggieapp21/app/assets/stylesheets/static_pages.scss */
+  /* line 111, /home/ubuntu/workspace/maggieapp21/app/assets/stylesheets/static_pages.scss */
   .modal-dialog {
     margin: 15% auto !important;
   }
