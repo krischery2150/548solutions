@@ -10243,7 +10243,7 @@ div.optimize-ad {
 
 /* line 89, /home/ubuntu/workspace/maggieapp21/app/assets/stylesheets/static_pages.scss */
 div.optimize-ad > h2 {
-  font-size: 4em;
+  font-size: 3em;
   margin-left: -1%;
 }
 
@@ -10255,10 +10255,65 @@ div.optimize-ad > h5 {
   margin-left: -2%;
 }
 
-@media (min-width: 576px) {
-  /* line 107, /home/ubuntu/workspace/maggieapp21/app/assets/stylesheets/static_pages.scss */
-  .modal-dialog {
-    margin: 15% auto !important;
+/* line 103, /home/ubuntu/workspace/maggieapp21/app/assets/stylesheets/static_pages.scss */
+.carousel-img {
+  height: 400px;
+  width: 100%;
+  border-radius: 7px;
+}
+
+/* line 111, /home/ubuntu/workspace/maggieapp21/app/assets/stylesheets/static_pages.scss */
+.service {
+  margin: 5% 0%;
+  padding: 0% 10%;
+}
+
+/* line 115, /home/ubuntu/workspace/maggieapp21/app/assets/stylesheets/static_pages.scss */
+.service-container > div:first-child {
+  background: rgba(220, 220, 220, 0.35);
+}
+
+/* line 119, /home/ubuntu/workspace/maggieapp21/app/assets/stylesheets/static_pages.scss */
+.service-container > div:last-child {
+  background: #ffffff;
+}
+
+/* line 123, /home/ubuntu/workspace/maggieapp21/app/assets/stylesheets/static_pages.scss */
+.service-container-inverse > div:first-child {
+  background: #ffffff;
+}
+
+/* line 127, /home/ubuntu/workspace/maggieapp21/app/assets/stylesheets/static_pages.scss */
+.service-container-inverse > div:last-child {
+  background: rgba(220, 220, 220, 0.35);
+}
+
+/* line 131, /home/ubuntu/workspace/maggieapp21/app/assets/stylesheets/static_pages.scss */
+.service-title {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+/* line 137, /home/ubuntu/workspace/maggieapp21/app/assets/stylesheets/static_pages.scss */
+.service-title > li:first-child > i {
+  padding: 31% 28% !important;
+  background: white;
+  border-radius: 100%;
+}
+
+/* line 145, /home/ubuntu/workspace/maggieapp21/app/assets/stylesheets/static_pages.scss */
+.service-title > li:last-child {
+  margin-right: 15px !important;
+}
+
+@media only screen and (max-width: 450px) {
+  /* line 150, /home/ubuntu/workspace/maggieapp21/app/assets/stylesheets/static_pages.scss */
+  .service {
+    margin: 4% 0%;
+    padding: 0% 10%;
   }
 }
 /*!
