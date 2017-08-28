@@ -107,8 +107,49 @@ div.optimize-ad > h5{
 }
 
 
-@media (min-width: 576px)  {
-  .modal-dialog{
-    margin: 15% auto !important;
+// Service Page
+.service {
+  margin: 5% 0%;
+  padding: 0% 10%;
+}
+.service-container > div:first-child{
+  background: gainsboro;
+}
+
+.service-container > div:last-child{
+  background: orange;
+}
+
+.service-container-inverse > div:first-child{
+  background: orange;
+}
+
+.service-container-inverse > div:last-child{
+  background: gainsboro;
+}
+
+.service-title{
+  display: inline-flex;
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.service-title > li:first-child > i {
+
+    padding: 31% 28% !important;
+    background: white;
+    border-radius: 100%;
+
+}
+
+.service-title > li:last-child{
+  margin-right: 15px !important;
+}
+
+@media only screen and (max-width: 450px) {
+  .service {
+    margin: 4% 0%;
+    padding: 0% 10%;
   }
 }
+
