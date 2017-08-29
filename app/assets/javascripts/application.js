@@ -16,7 +16,6 @@
 //= require now-ui-kit
 //= require tether.min
 //= require rails-ujs
-//= require turbolinks
 //= require test
 //= require static_pages
 
