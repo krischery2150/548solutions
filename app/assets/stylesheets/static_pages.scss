@@ -84,8 +84,9 @@ img.logo{
 }
 
 div.optimize-ad{
-  padding-top: 6%;
+  padding-top: 3%;
 }
+
 div.optimize-ad > h2{
   font-size: 3em;
   margin-left: -1%;
@@ -100,18 +101,24 @@ div.optimize-ad > h5{
 
 
 // Carousel
-.carousel-img{
-  height: 400px;
+.carousel-img {
+  height: 450px;
   width: 100%;
   border-radius: 7px;
 }
 
+// Home Page
+.team-img{
+  height: 147px;
+  width: 160px;
+}
 
 // Service Page
 .service {
-  margin: 5% 0%;
+  margin: 15% 0%;
   padding: 0% 10%;
 }
+
 .service-container > div:first-child{
   background: rgba(220, 220, 220, 0.35);
 }
@@ -128,11 +135,15 @@ div.optimize-ad > h5{
   background: rgba(220, 220, 220, 0.35);
 }
 
-.service-title{
+.service-title {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
   display: inline-flex;
   list-style-type: none;
   padding-left: 0px;
+  width: 109%;
 }
+
 
 .service-title > li:first-child > i {
   padding: 16% 21% !important;
@@ -147,11 +158,14 @@ div.optimize-ad > h5{
   margin-right: 16px;
 }
 
-.service-title > li:last-child{
+.service-title > li:last-child {
   font-size: 0.9em;
+  font-weight: 500;
 }
 
-
+p.description{
+  font-size: 1.34em !important;
+}
 
 .service-list{
   color: #F96332;
@@ -159,10 +173,30 @@ div.optimize-ad > h5{
 
 }
 
+
+// Portfolio Page
+.link-container{
+  margin-top: 17%;
+}
+
+.btn-portofolio{
+  font-size: 1.1em !important;
+  font-weight: bolder !important;
+}
+
+
 @media only screen and (max-width: 450px) {
   .service {
-    margin: 4% 0%;
+    margin: 15% 0%;
     padding: 0% 10%;
   }
+
+  
+  .carousel-img{
+    height: 400px;
+    width: 100%;
+    border-radius: 7px;
+  }
+
 }
 
