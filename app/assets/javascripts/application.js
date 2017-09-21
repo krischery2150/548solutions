@@ -43,12 +43,7 @@ $( document ).ready( function() {
       origin: 'top'  
     });
     
-    sr.reveal('.optimize-ad',{
-      delay: 1000,
-      duration: 2000,
-      origin: 'right',  
-      // distance: '200px',
-    });
+
     
     
 // This code helped me nail the extra space away from the body    

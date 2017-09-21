@@ -2,6 +2,41 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+
+// Navbar Background
+.bg-tertiary{
+  background: #0275d8 !important;
+}
+
+
+// Logo Code
+
+.content-center > div:first-child{
+}
+
+
+.content-center > div:first-child > h3{
+}
+
+.dummy-logo {
+  padding: 0%;
+  list-style: none;
+}
+
+.dummy-logo > li:first-child{
+  font-size: 8em;
+}
+.dummy-logo > li:last-child{
+  font-size: 1.2em;
+}
+
+//end
+
+
+.navbar-collapse{
+  background: #0275d8 !important;
+}
+.navbar-collapse
 // Start of Header
 ul.header-service-list{
   display: inline-flex;
@@ -59,9 +94,10 @@ div.team-player{
   box-shadow: 0px 5px 25px 0px rgba(44, 44, 44, 0.29);
 }
 
-.section-bg-secondary{
-  background: #f96332 !important;
+.section-bg-secondary {
+  background: #3891db !important;
 }
+
 
 // .modal-dialog{
 //   margin: 15% 10px !important;
@@ -92,11 +128,11 @@ div.optimize-ad > h2{
   margin-left: -1%;
 }
 
-div.optimize-ad > h5{
+div.optimize-ad > h5 {
   font-size: 3.5em;
-  color: white;
-  font-weight: 200;
-  margin-left: -2%;
+  color: black;
+  font-weight: 800;
+  margin: 0%;
 }
 
 .call-us-action-list {
